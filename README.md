@@ -1,6 +1,7 @@
 # Ansible-Automation-Lab
 
 ================
+
 ansible-lab/
 │
 ├── inventory/
