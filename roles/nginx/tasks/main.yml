@@ -5,13 +5,35 @@
     name: nginx
     state: present
 
+- name: Ensure /var/www/html exists
+  file:
+    path: /var/www/html
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0755'
+
+- name: Deploy index.html
+  copy:
+    content: "<h1>Welcome from {{ inventory_hostname }}</h1>"
+    dest: /var/www/html/index.html
+    owner: www-data
+    group: www-data
+    mode: '0644'
+
 - name: Copy nginx config
   template:
     src: nginx.conf.j2
     dest: /etc/nginx/sites-available/default
-    mode: 0644
+    mode: '0644'
 
-- name: Ensure nginx is running
+- name: Test nginx config
+  command: nginx -t
+  register: nginx_test
+  failed_when: nginx_test.rc != 0
+  changed_when: false
+
+- name: Ensure nginx is running and enabled
   service:
     name: nginx
     state: started

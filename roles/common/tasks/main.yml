@@ -4,6 +4,7 @@
   apt:
     update_cache: yes
     upgrade: dist
+  when: ansible_os_family == "Debian"
 
 - name: Ensure basic packages are installed
   apt:
@@ -12,6 +13,5 @@
       - curl
       - net-tools
     state: present
-
 
 ---
