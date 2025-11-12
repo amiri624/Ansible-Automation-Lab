@@ -1,4 +1,3 @@
-
 📄 ansible-lab/README.md
 
 <h1 align="center">🧩 Ansible Automation Lab</h1>
