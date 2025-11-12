@@ -128,18 +128,9 @@ ok: [localhost]
 
 ---
 
-🧑‍💻 Author
-Meisam Amiri
+🧑‍💻 Author: Meisam Amiri
 Linux System Administrator / DevOps Engineer
 
 
 ---
 
-<p align="center">⭐️ If you found this useful, don’t forget to star the repo!</p>
-
-```
-
-🧑‍💻 Author
-
-Your Name: Meisam Amiri
-Linux System Administrator / DevOps Engineer
