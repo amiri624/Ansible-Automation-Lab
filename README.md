@@ -129,11 +129,8 @@ ok: [localhost]
 ---
 
 🧑‍💻 Author
-
-Your Name
+Meisam Amiri
 Linux System Administrator / DevOps Engineer
-📧 your.email@example.com
-🌐 https://github.com/YOURUSERNAME
 
 
 ---
