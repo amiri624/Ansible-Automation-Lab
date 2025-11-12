@@ -1,0 +1,17 @@
+
+---
+- name: Update apt packages
+  apt:
+    update_cache: yes
+    upgrade: dist
+
+- name: Ensure basic packages are installed
+  apt:
+    name:
+      - vim
+      - curl
+      - net-tools
+    state: present
+
+
+---

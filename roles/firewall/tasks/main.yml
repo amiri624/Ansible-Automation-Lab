@@ -1,0 +1,24 @@
+
+---
+- name: Install ufw
+  apt:
+    name: ufw
+    state: present
+
+- name: Allow SSH
+  ufw:
+    rule: allow
+    name: OpenSSH
+
+- name: Allow HTTP
+  ufw:
+    rule: allow
+    port: 80
+    proto: tcp
+
+- name: Enable ufw
+  ufw:
+    state: enabled
+
+
+---

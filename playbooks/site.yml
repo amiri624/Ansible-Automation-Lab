@@ -1,0 +1,13 @@
+
+---
+- name: Setup Web Servers
+  hosts: webservers
+  become: yes
+
+  roles:
+    - role: common
+    - role: firewall
+    - role: nginx
+
+
+---
