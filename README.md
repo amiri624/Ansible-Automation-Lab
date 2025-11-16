@@ -6,7 +6,7 @@
 Automate Nginx & Firewall setup using <b>Ansible</b> — a simple yet powerful DevOps-style lab for system administrators and automation learners.
 </p>
 
----
+
 
 ## 🚀 Overview
 
@@ -20,7 +20,7 @@ It installs and configures:
 
 It’s perfect for practicing Ansible roles, inventories, and playbook structures.
 
----
+
 
 ## 🧭 How to Use
 
@@ -44,7 +44,6 @@ ansible-playbook playbooks/site.yml
 
 
 
----
 
 📂 Project Structure
 
@@ -72,7 +71,6 @@ ansible-lab/
         └── vars/main.yml
 
 
----
 
 ⚙️ Requirements
 
@@ -108,7 +106,7 @@ ansible-lab/
 
 
 
----
+
 
 🏁 Example Output
 
@@ -124,11 +122,11 @@ TASK [nginx : Ensure nginx is running and enabled] *****************************
 ok: [localhost]
 
 
----
 
-🧑‍💻 Author: Meisam Amiri
+
+🧑‍💻 Author: 
 Linux System Administrator / DevOps Engineer
 
 
----
+
 
