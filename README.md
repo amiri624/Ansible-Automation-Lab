@@ -26,7 +26,7 @@ It’s perfect for practicing Ansible roles, inventories, and playbook structure
 
 1. Clone this repository:
 
-```bash
+
    git clone https://github.com/YOURUSERNAME/ansible-lab.git
    cd ansible-lab
 
@@ -43,7 +43,7 @@ localhost ansible_connection=local
 ansible-playbook playbooks/site.yml
 
 
-
+```bash
 
 📂 Project Structure
 
