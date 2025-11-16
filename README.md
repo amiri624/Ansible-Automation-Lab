@@ -71,7 +71,7 @@ ansible-lab/
         └── vars/main.yml
 
 
-
+```
 ⚙️ Requirements
 
 🐧 Linux system (Ubuntu/Debian preferred)
@@ -82,7 +82,7 @@ ansible-lab/
 
 
 
----
+
 
 🧠 What Happens When You Run It
 
