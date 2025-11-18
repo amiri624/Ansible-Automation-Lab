@@ -18,8 +18,6 @@ It installs and configures:
 
 It’s perfect for practicing Ansible roles, inventories, and playbook structures.
 
-
-
 ## 🧭 How to Use
 
 1. Clone this repository:
