@@ -7,7 +7,6 @@ Automate Nginx & Firewall setup using <b>Ansible</b> — a simple yet powerful D
 </p>
 
 
-
 ## 🚀 Overview
 
 This project demonstrates how to automate common Linux server configuration tasks using Ansible.  
