@@ -6,7 +6,6 @@
 Automate Nginx & Firewall setup using <b>Ansible</b> — a simple yet powerful DevOps-style lab for system administrators and automation learners.
 </p>
 
-
 ## 🚀 Overview
 
 This project demonstrates how to automate common Linux server configuration tasks using Ansible.  
