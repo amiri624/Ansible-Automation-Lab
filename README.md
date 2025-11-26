@@ -1,3 +1,4 @@
+
 📄 ansible-lab/README.md
 
 <h1 align="center">🧩 Ansible Automation Lab</h1>
@@ -68,6 +69,7 @@ ansible-lab/
 
 
 ```
+
 ⚙️ Requirements
 
 🐧 Linux system (Ubuntu/Debian preferred)
@@ -78,28 +80,16 @@ ansible-lab/
 
 
 
-
-
 🧠 What Happens When You Run It
 
 1. Updates and upgrades system packages
 
 
 2. Installs essential tools
-
-
 3. Configures UFW to allow SSH and HTTP
-
-
 4. Installs and configures Nginx
-
-
 5. Deploys a default HTML page
-
-
 6. Ensures Nginx service is enabled and running
-
-
 
 
 
