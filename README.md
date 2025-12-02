@@ -96,15 +96,14 @@ ansible-lab/
 
 🏁 Example Output
 
-PLAY [Setup Web Servers] ***************************************************************
-
-TASK [Gathering Facts] *****************************************************************
+PLAY [Setup Web Servers] 
+TASK [Gathering Facts] 
 ok: [localhost]
 
-TASK [common : Update apt packages] ****************************************************
+TASK [common : Update apt packages] 
 changed: [localhost]
 
-TASK [nginx : Ensure nginx is running and enabled] *************************************
+TASK [nginx : Ensure nginx is running and enabled] 
 ok: [localhost]
 
 
